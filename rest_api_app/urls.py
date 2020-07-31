@@ -6,5 +6,5 @@ router = routers.DefaultRouter()
 router.register(r'student', StudentViewSets)
 
 urlpatterns = [
-    url(r'', include(router.urls))
+    url(r'', include(router.urls)),
 ]
